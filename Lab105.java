@@ -5,9 +5,9 @@ public class Lab105 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your order : ");
-        System.out.println("1 = \"Americano\"\r\n" + //
-                        "2 = \"Latte\"\r\n" + //
-                        "3 = \"Espresso\"\r\n" + //
+        System.out.println("1 = \"Americano\"\r\n" +
+                        "2 = \"Latte\"\r\n" +
+                        "3 = \"Espresso\"\r\n" +
                         "4 = \"Mocha\"");
 
         int menu = scanner.nextInt();
@@ -31,7 +31,7 @@ public class Lab105 {
                 break;
 
                 default:
-                    System.out.println("End");
+                    System.out.println("Invalid Menu");
                     break;
         }
     }
