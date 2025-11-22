@@ -1,3 +1,4 @@
+//No AI 100% code by Tanachot Jatiradook
 import java.util.Scanner;
 
 public class Lab104 {
