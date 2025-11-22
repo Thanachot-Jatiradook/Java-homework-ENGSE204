@@ -1,14 +1,16 @@
-//No AI 100% code by Tanachot Jatiradook
 import java.util.Scanner;
 
 public class Lab104 {
-    public static void main ( String[] args ) {
+
+    public static void main () {
+
         Scanner scanner = new Scanner ( System.in ) ;
         System.out.println ( "Enter your score : " ) ;
         int score = scanner.nextInt();
 
         if ( score >= 80 ) {
             System.out.println ( "A" ) ;
+
         }   else if ( score >= 70 ) {
                 System.out.println ( "B" ) ;
             }
@@ -21,5 +23,7 @@ public class Lab104 {
             else if ( score <= 49 ) {
                 System.out.println ("F" ) ;
             }
+           
         }
+        
     }
