@@ -23,6 +23,7 @@ public class Student {
     public void displaySummary() {
         double avg = calulateAverage() ;
 
+        System.out.println("-----result-----");
         System.out.println("Name :   " + this.studentName) ;
         System.out.println("Average Score :   " + avg) ;
         
