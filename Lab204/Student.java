@@ -27,10 +27,10 @@ public class Student {
         System.out.println("Average Score :   " + avg) ;
         
         if (avg >= 50.0){
-            System.out.println("Status : Pro") ;
+            System.out.println("Status : Pass") ;
         }
             else if (avg <= 50.0) {
-                System.out.println("Status : Noob") ;
+                System.out.println("Status : Fail") ;
             }
         
     }
