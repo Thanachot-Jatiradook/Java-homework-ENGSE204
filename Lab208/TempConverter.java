@@ -21,6 +21,8 @@ public class TempConverter {
         System.out.println("Enter your Temp :     ");
         double inputTemp = scanner.nextDouble();
 
+        System.out.println("----------result----------");
+
         if (mode.equals("C_TO_F")) {
             double result = TempConverter.celsiusToFahrenheit(inputTemp);
             System.out.println(result);
