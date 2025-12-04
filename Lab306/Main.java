@@ -17,6 +17,8 @@ public class Main {
         System.out.println("Enter Your Withdraw :     ");
         double inputWithdraw =scanner.nextDouble();
 
+        System.out.println("----------result----------");
+
         BankAccount blehAccount = new BankAccount(inputBalance);
 
         blehAccount.deposit(inputDeposit);
