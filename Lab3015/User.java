@@ -77,7 +77,7 @@ public class User {
             else {
 
                 int remaining = maxAttempts - failedAttempts ;
-                System.out.println("Login Failed" + remaining + "Attempts Left") ;
+                System.out.println("Login Failed " + remaining + " Attempts Left") ;
 
             }
 
