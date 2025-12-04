@@ -23,13 +23,15 @@ public class SystemLogger {
 
             currentLogLevel = nLevel ;
             System.out.println("Log level set to " + getLevelName(nLevel)) ;
+            System.out.println("------------------------");
 
         }
 
         else {
 
             System.out.println("Invalid Log Level") ;
-
+            System.out.println("------------------------");
+            
         }
 
     }
