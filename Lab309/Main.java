@@ -8,21 +8,32 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in) ;
         
-        System.out.println("Enter Your Product Length :     ") ;
+        System.out.println("Enter Your Password Length :     ") ;
         int inputMinLength1 = scanner.nextInt() ;
 
         scanner.nextLine() ;
 
+        System.out.println("Enter Your Name :     ") ;
         String inputUserName1 = scanner.nextLine() ;
+        
+        System.out.println("Enter Your Password :     ") ;
         String inputUserPassword1 = scanner.nextLine() ;
+
+        System.out.println("Enter Your Name :     ") ;
         String inputUserName2 = scanner.nextLine() ;
+
+        System.out.println("Enter Your Password :     ") ;
         String inputUserPassword2 = scanner.nextLine() ;
 
+        System.out.println("Enter Your Password Length :     ") ;
         int inputMinLength2 = scanner.nextInt() ;
 
         scanner.nextLine() ;
         
+        System.out.println("Enter Your New Password :     ") ;
         String inputUserNewPassword2 = scanner.nextLine() ;
+
+        System.out.println("----------result----------");
 
         User.setMinLength(inputMinLength1) ;
 
