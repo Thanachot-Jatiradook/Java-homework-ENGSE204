@@ -11,6 +11,8 @@ public class Main {
         System.out.println("Enter Your Connection :     ");
         String inputConnectionString = scanner.nextLine();
 
+        System.out.println("----------result----------");
+
         DatabaseConnection blehdatabase = new DatabaseConnection(inputConnectionString);
 
         blehdatabase.connect();
